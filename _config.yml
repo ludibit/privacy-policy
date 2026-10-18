@@ -1,0 +1,7 @@
+title: Ludibit Privacy Policy
+description: Privacy information for Ludibit apps and games.
+url: https://iamludibit.github.io
+baseurl: /privacy-policy
+markdown: kramdown
+exclude:
+  - README.md

@@ -1,15 +1,15 @@
-# Ludibit privacy policies
+# Ludibit Privacy Policy
+
+Public policy: **https://iamludibit.github.io/privacy-policy/**
 
 Developer: **Ludibit**
 
 Privacy contact: **iamludibit@gmail.com**
 
-## Ideal Timers
+## Editing and publishing
 
-Read the [Ideal Timers privacy policy draft](privacy-policy.md).
+Edit [privacy-policy.md](privacy-policy.md), the single source for the public policy. `index.md` includes it and GitHub Pages renders it with the local layout. Push changes to `main` to publish; Pages uses the repository root. The page needs no external fonts, scripts, analytics or frontend dependencies.
 
-This repository is private. The policy is a draft for review; no public policy website has been published and GitHub Pages is not enabled.
+The policy currently covers **Ideal Timers**. Add another app only after reviewing its actual data practices, SDKs and feature-specific differences. Keep the common sections accurate for every covered app and update the effective date when practices change.
 
-Before publication, confirm the effective date and hosting details, review the policy against the production app and configured advertising/store services, and remove draft notes and placeholders. The developer must approve public publication separately.
-
-The app source stays in its existing repository. This repository contains only privacy-policy materials.
+App source remains in its existing private repository. This public repository contains only policy and website materials. Publishing this page does not complete app release checks, in-app policy linking, production ad configuration or Play Console declarations.
