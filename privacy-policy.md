@@ -6,8 +6,8 @@ This policy explains how **Ideal Timers**, developed by **Ludibit**, handles you
 
 ## Quick summary
 
-- Your timer content stays on your device by default. We do not receive it on our servers.
-- You choose when to sync or export copies. Your device may also back up app data.
+- Ideal Timers stores your content locally. We do not run servers to store or sync it.
+- You choose whether to sync or export backups, which devices to sync with and where to save or share exported files. Device backups follow your operating-system backup settings.
 - AdMob processes advertising information. We do not send your timer content to AdMob.
 - Premium removes ads. Stores handle purchases.
 
@@ -15,11 +15,11 @@ This policy explains how **Ideal Timers**, developed by **Ludibit**, handles you
 
 Ideal Timers requires no app account. It stores boards, timers, schedules, counters, history, notes, settings, keyboard shortcuts and selected wallpaper locally to provide its features. It also stores a random sync installation identifier and cached Premium status. Names and notes can contain personal information you enter. Timer content may appear in notifications and background controls according to your device settings.
 
-We do not operate a server that receives this content. The app does not request your name, email, contacts, precise GPS location, camera or microphone to run timers.
+Storage and sync of this content do not use a developer-hosted cloud service. The app does not request your name, email, contacts, precise GPS location, camera or microphone to run timers.
 
 ## Optional sync, exports and backups
 
-Sync connects directly to paired devices on your local network. Discovery can expose device names, identifiers, network addresses and service ports. The app exchanges encrypted backups containing boards, timers, history, notes, settings and available shortcuts. Category choices limit what is applied, but the transmitted backup can include other categories. Discovery metadata and connection envelopes remain visible on the network.
+Sync connects directly to paired devices on your local network and exchanges encrypted backups containing boards, timers, history, notes, settings and available shortcuts. Category settings control what is applied, but do not remove other categories from the transmitted backup. Device discovery and connection details, such as device names, identifiers, network addresses and service ports, are not encrypted by the sync protocol.
 
 Pairing secrets, device details, timestamps and saved sync versions remain locally for reconnection and conflict resolution. Removing a paired device removes its local pairing record and saved versions, but not copies on that device. Use trusted devices and networks.
 
