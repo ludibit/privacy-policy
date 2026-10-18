@@ -2,117 +2,63 @@
 
 Effective date: **October 17, 2026**
 
-Developer: **Ludibit**
-
-Privacy contact: **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**
+This policy explains how **Ideal Timers**, developed by **Ludibit**, handles your information. Contact: **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**.
 
 ## Quick summary
 
-- Your app content stays on your device by default. We do not receive it on our servers.
-- You choose when to sync, export or share copies. Your device may also back up app data according to its settings.
-- Apps with Google AdMob ads use advertising services that process device and usage information. We do not send your app content to AdMob.
-- Stores handle optional purchases. See your app's section below for its features and privacy choices.
+- Your timer content stays on your device by default. We do not receive it on our servers.
+- You choose when to sync or export copies. Your device may also back up app data.
+- AdMob processes advertising information. We do not send your timer content to AdMob.
+- Premium removes ads. Stores handle purchases.
 
-The full policy below explains these practices and their limits.
+## Your local data
 
-## Apps covered by this policy
+Ideal Timers requires no app account. It stores boards, timers, schedules, counters, history, notes, settings, keyboard shortcuts and selected wallpaper locally to provide its features. It also stores a random sync installation identifier and cached Premium status. Names and notes can contain personal information you enter. Timer content may appear in notifications and background controls according to your device settings.
 
-This policy applies to the Ludibit apps and games listed here. The shared sections describe their common practices; each app's section provides its specific details.
+We do not operate a server that receives this content. The app does not request your name, email, contacts, precise GPS location, camera or microphone to run timers.
 
-- **[Ideal Timers](#ideal-timers)** — local boards, timers and history; optional local-network sync and backups; Android AdMob advertising and optional Premium purchases.
+## Optional sync, exports and backups
 
-Other Ludibit apps and games are covered only when they are added to this list with the relevant details. Features described as optional apply only where the listed app provides them.
+Sync connects directly to paired devices on your local network. Discovery can expose device names, identifiers, network addresses and service ports. The app exchanges encrypted backups containing boards, timers, history, notes, settings and available shortcuts. Category choices limit what is applied, but the transmitted backup can include other categories. Discovery metadata and connection envelopes remain visible on the network.
 
-## Local content and your choices
+Pairing secrets, device details, timestamps and saved sync versions remain locally for reconnection and conflict resolution. Removing a paired device removes its local pairing record and saved versions, but not copies on that device. Use trusted devices and networks.
 
-The covered apps store the content you create and their settings on your device to provide their features. We do not operate a server that receives that content through these apps. Content you enter can contain personal information. Advertising and store services process separate information as described below.
+Exports are readable, unencrypted JSON files containing app database content, including the installation identifier. Mobile sharing creates a temporary copy. You choose where to save or share files; receiving services follow their own policies. Import replaces database content. Your operating system may separately back up or transfer app data under its settings and provider.
 
-When you choose an available sync, export or sharing feature, it can create copies on other devices or in destinations you select. A service you choose to receive a copy handles it under its own policy. Your operating system may separately back up or transfer app data according to its settings and provider. These copies are distinct from the app's local storage.
+## Android advertising and privacy choices
 
-## Advertising and Google services
+Google AdMob processes IP addresses, which can indicate approximate location; identifiers such as advertising and app-set IDs; interactions such as app launches, taps and video views; and diagnostics such as launch time, freezes and energy usage. Google describes advertising, analytics and fraud prevention as processing purposes. Processing depends on SDK behavior, device settings, consent and ad configuration, and may involve Google and advertising partners. Google's consent service also handles information needed to manage privacy choices.
 
-The Android apps identified above as having ads integrate Google AdMob through the Google Mobile Ads SDK.
+**The app does not supply timers, notes, history, boards, settings, schedules, wallpaper, shortcuts, backups or other content created or saved through its features to AdMob.** This is separate from SDK device, interaction and diagnostic information.
 
-Google documents collection and sharing of IP addresses, which can indicate approximate location; app/ad interactions, such as app launches, taps and video views; diagnostics, such as app launch time, freezes and energy usage; and device or account-related identifiers, including advertising and app-set identifiers where available. Google describes advertising, analytics and fraud prevention as processing purposes. The information processed depends on SDK behavior, device settings, consent and advertising configuration. Google's consent service also processes information needed to determine applicable requirements and manage privacy choices.
+The app checks Premium before explicitly initializing the advertising SDK or requesting ads. For non-Premium users, Google's consent platform checks requirements, displays required forms and determines whether ads may be requested. When required, “Advertising privacy” in Settings lets you review your choices. Android also provides advertising-ID controls.
 
-We do not supply content created or saved through the covered apps' features to AdMob. This includes timers, notes, history, boards, settings, schedules, wallpaper, keyboard shortcuts and backup contents in Ideal Timers. This content is separate from the device, interaction and diagnostic information processed by the advertising SDK.
+Recognized Premium skips explicit ad initialization and ad requests at startup; unresolved purchase checks leave ads disabled. Upgrading removes ads and stops further requests, but does not unload an already initialized SDK or erase information already processed. Store checks can still occur.
 
-Google may process advertising information on its infrastructure and with advertising partners. See [Google's Privacy Policy](https://policies.google.com/privacy), [Google's explanation of partner services](https://policies.google.com/technologies/partner-sites) and [Google's Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure).
+See [Google's Privacy Policy](https://policies.google.com/privacy), [partner-services explanation](https://policies.google.com/technologies/partner-sites) and [AdMob data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure). This policy does not itself obtain consent.
 
-Privacy forms, advertising choices and the effect of purchasing an ad-free option are described in the relevant app section. Android also provides advertising identifier controls in system settings; availability varies by device. This policy does not itself obtain advertising consent.
+## Purchases
 
-## Optional store purchases
-
-Where purchases are available, the platform store processes payment and supplies product information, purchase status and purchase records used to recognize, acknowledge and restore purchases. An app may cache entitlement status locally. We do not receive your full payment-card details.
-
-Google Play handles Android purchases; supported Microsoft Store installations use Microsoft Store services. Their account, payment and transaction handling follows their respective policies: [Google](https://policies.google.com/privacy) and [Microsoft](https://privacy.microsoft.com/privacystatement). Availability and purchase benefits are described in the app and its section below.
+Google Play handles Android purchases; supported Microsoft Store installations use Microsoft Store services. Stores process payments and provide purchase records to recognize, acknowledge and restore Premium. The app caches entitlement status locally and does not receive full payment-card details. See [Google's policy](https://policies.google.com/privacy) and [Microsoft's policy](https://privacy.microsoft.com/privacystatement).
 
 ## Retention and deletion
 
-Local content remains until you change or delete it, an app's retention feature removes it, you replace it through an import, or you remove its storage. The app sections explain specific retention and reset behavior. Clearing local storage does not delete copies in exports, device backups, paired devices or services you selected. Delete those copies separately.
+Local content remains until deleted, replaced by import or removed with app storage. History defaults to 90 days and is pruned during startup and history operations. You can change retention or clear history; a non-positive retention value disables automatic pruning.
 
-Removing app data does not cancel purchases or delete store transaction records. Advertising, store, email and backup providers retain information under their own policies and applicable requirements. We cannot erase their records through an app reset.
+“Reset all data” resets the database. It does not remove every separate file, including saved sync devices/versions, wallpaper, shortcut preferences and exported backups. Remove saved devices and wallpaper through their controls. On Android, clearing app storage removes app-private data; uninstalling generally does too, but system backups may restore it. Desktop uninstalling may leave the data directory. Delete exports, backups and copies elsewhere separately.
 
-For information held by Ludibit, contact **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)** with your question or deletion request. The covered apps do not require a Ludibit account, and we do not hold their local content on our servers.
+Resetting does not cancel purchases or erase third-party records. Google, Microsoft and backup/sharing providers retain information under their own policies.
 
-## Support emails
+## Support, diagnostics and security
 
-If you email us, we use your email address, message and any attachments to respond to your request. Your email provider and ours also process the correspondence. Please avoid including sensitive app content unnecessarily.
+Emails and attachments you send are used to respond and kept without a fixed automatic deletion period. Request deletion at **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)** and we will delete the requested correspondence from our mailbox. Your copies and email-provider backups follow their own retention practices.
 
-Support correspondence is kept in our email account without a fixed automatic deletion period. You can request deletion by emailing **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**, and we will delete the requested support emails and their attachments from our mailbox. This does not delete copies in your mailbox or override email providers' backup and retention practices.
+There is no separate developer-operated analytics or automatic crash-upload service. Diagnostic builds may keep local logs; errors and state changes may appear in system/developer logs. Review logs before sharing. Local databases and exports are not encrypted by the app; device security and your chosen destinations affect protection.
 
-## Diagnostics and security
+## Audience, website and updates
 
-The covered apps have no separate developer-operated analytics or automatic crash-upload service. Advertising SDK diagnostics are described above. Diagnostic builds can keep local logs, and app errors or state changes may appear in system or developer logs. Review logs before choosing to share them.
+Ideal Timers is a general-purpose timer app, not specifically designed for or marketed to children.
 
-Local files and manual exports are not encrypted by the apps unless an app's section says otherwise. Device security, backups and the destinations you choose for sharing also affect protection. Specific sync protections and limitations are described below.
+The policy page uses GitHub Pages. GitHub processes technical requests, including IP addresses, under its [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We add no analytics, ads, tracking scripts or cookies to the page.
 
-## Privacy-policy website
-
-This policy page is hosted by GitHub Pages. GitHub receives technical request information, including visitors' IP addresses, to provide and secure its service. Its handling of that information is explained in the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We have not added analytics, advertising, tracking scripts or cookies to this page.
-
-## Ideal Timers
-
-Ideal Timers helps you organize boards, timers, schedules and timer history. You do not need to create an Ideal Timers account.
-
-### Information stored on your device
-
-The app stores board and timer names, durations, running state, counters, schedules, timer activity timestamps, history and any notes you add to history. It also stores language, appearance, sound, vibration and keyboard-shortcut preferences, a randomly generated installation identifier for sync, and cached Premium status and its last refresh time. If you choose a wallpaper image, the app saves a local copy.
-
-These details support the features you use. The app does not ask for your name, email, contacts, precise GPS location, microphone recordings or camera access to run timers. Timer details may appear in on-screen timers, notifications and background timer controls; their visibility depends on your device and notification settings.
-
-### Optional local-network sync
-
-When you activate sync, the app discovers and connects directly to other devices on your network. Discovery and connection metadata can expose the device display name, installation identifier, network address and service port to other devices on that network. A display name may be based on the device manufacturer/model or computer hostname.
-
-When you pair and sync, the app exchanges an encrypted backup containing boards, timers, history and notes, settings and available keyboard shortcuts with the paired device. Category choices control which information is applied during sync; the transmitted backup can contain other categories too. Timer content is not routed through a developer-operated cloud service. The app retains pairing secrets, device names/identifiers, sync timestamps, previous shared backups and unresolved versions locally for later sync and conflict resolution.
-
-Sync backup contents are encrypted during transfer, but discovery metadata and connection envelopes are visible on the network. Use sync only with devices and networks you trust. Removing a saved device removes its local pairing record and saved sync versions; it does not erase copies already stored on the other device.
-
-### Backups and files
-
-Export creates a readable JSON file containing boards, timers, history and notes, settings, the installation identifier and available keyboard shortcuts. Exported files are not encrypted by the app. On mobile, a temporary copy is created for the system share sheet. You choose where to save or share it. Import reads the file you select and replaces app database content.
-
-Operating-system backups can include the database and separate local files, depending on device settings, capabilities and provider.
-
-### Android advertising, consent and Premium
-
-The Android app checks Premium status before explicitly initializing the advertising SDK or requesting ads. For eligible non-Premium users, Google's User Messaging Platform checks consent requirements and presents a privacy form when required. Ads are requested only when that platform indicates they may be requested. When Google requires a privacy-options entry point, you can review or change your choices using “Advertising privacy” in Settings.
-
-Premium removes ads. When Premium is recognized, the app skips explicit advertising SDK initialization and ad requests on startup. Unresolved purchase checks leave ads disabled. Upgrading during a session removes the ad placement and stops further ad requests, but does not unload an SDK already initialized earlier in that session or erase information already processed. Store purchase checks can still occur.
-
-### History retention and reset limitations
-
-History defaults to 90 days. The app prunes older entries during startup and history operations; retention choices can change that period, and a non-positive retention value disables automatic pruning. You can also clear history yourself.
-
-“Reset all data” resets the app database to defaults. Separate files such as saved sync devices and their stored versions, wallpaper, keyboard-shortcut preferences and exported backups are not all removed by this action. Remove saved sync devices and wallpaper through their controls.
-
-On Android, clearing app storage removes app-private local data; uninstalling generally removes it too, but system backups may restore it. On desktop, removing the application may leave its data directory. Delete exported files and copies on other devices or services separately.
-
-### Intended audience
-
-Ideal Timers is a general-purpose timer app. It is not specifically designed for or marketed to children.
-
-## Changes to this policy
-
-We will update this policy when the covered apps or their data practices change and update the effective date. For privacy questions or requests, contact **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**.
+We will update this policy and its effective date when data practices change. Privacy questions and requests: **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**.
