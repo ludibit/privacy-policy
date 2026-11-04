@@ -60,6 +60,8 @@ Local content remains until deleted, replaced by import or removed with app stor
 
 “Reset all data” resets the database. It does not remove every separate file, including saved sync devices/versions, wallpaper, shortcut preferences and exported backups. Remove saved devices and wallpaper through their controls. On Android, clearing app storage removes app-private data; uninstalling generally does too, but system backups may restore it. Desktop uninstalling may leave the data directory. Delete exports, backups and copies elsewhere separately.
 
+On Android, you can ask us to delete the Google Analytics data linked to your installation: open Settings > Advanced > “Delete analytics data” and send the anonymous ID shown there to **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**. We request deletion of that ID's data from Google Analytics within 30 days and confirm by email; Google may need additional time to complete removal from its systems. If no ID is shown, no analytics data has been collected on that device. Advertising data is processed by Google under its own policies; you can reset or delete your advertising ID in Android settings.
+
 Resetting does not cancel purchases or erase third-party records. Google, Microsoft and backup/sharing providers retain information under their own policies.
 
 ## Support, diagnostics and security
