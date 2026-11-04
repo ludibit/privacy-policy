@@ -1,6 +1,6 @@
 # Ludibit Privacy Policy
 
-Effective date: **October 17, 2026**
+Effective date: **November 3, 2026**
 
 This policy explains how **Ideal Timers**, developed by **Ludibit**, handles your information. Contact: **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**.
 
@@ -9,6 +9,7 @@ This policy explains how **Ideal Timers**, developed by **Ludibit**, handles you
 - Ideal Timers stores your content locally. We do not run servers to store or sync it.
 - You choose whether to sync or export backups, which devices to sync with and where to save or share exported files. Device backups follow your operating-system backup settings.
 - AdMob processes advertising information. We do not send your timer content to AdMob.
+- On Android, Google Analytics measures installs, Premium purchases and ad revenue so we can see which creator links and ads work. It follows your consent choices and never receives your timer content.
 - Premium removes ads. Stores handle purchases.
 
 ## Your local data
@@ -37,9 +38,21 @@ Recognized Premium skips explicit ad initialization and ad requests at startup; 
 
 See [Google's Privacy Policy](https://policies.google.com/privacy), [partner-services explanation](https://policies.google.com/technologies/partner-sites) and [AdMob data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure). This policy does not itself obtain consent.
 
+## Android analytics and promotion measurement
+
+On Android, Ideal Timers uses Google Analytics for Firebase to understand how people find the app and whether our promotion works, for example which creator link or ad led to an install or a Premium purchase, and how much ad revenue the app earns. Google Analytics processes an app-instance identifier, the advertising ID, approximate location derived from a masked IP address, app launches and sessions, the Google Play campaign or link that led to the install, Premium purchase events with product and price, and ad revenue reported by AdMob.
+
+**The app does not send timers, notes, history, boards, settings, schedules, wallpaper, shortcuts, backups or other content created or saved through its features to Google Analytics, and it logs no custom events.**
+
+Analytics stays off until the app has checked your privacy choices. Where Google's consent platform asks for consent, for example in the European Economic Area, the UK and Switzerland, analytics runs only if you allow Google to store information on your device and measure advertising performance; otherwise it stays off. When required, “Advertising privacy” in Settings lets you change your choices, including after buying Premium. Ad personalization from this data is always disabled, and we do not build remarketing audiences.
+
+We link Google Analytics with Google Play, Google AdMob and Google Ads only to report purchases, ad revenue and the results of our own campaigns. Google processes this data under its terms for these services, and we have turned off optional sharing of Analytics data for Google's own purposes. Analytics event data is kept for 14 months and then deleted automatically. See [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
+
+On Windows, the app contains no analytics. If you install or buy through a Microsoft Store promotional link, Microsoft may report to us how many installs and purchases that link produced.
+
 ## Purchases
 
-Google Play handles Android purchases; supported Microsoft Store installations use Microsoft Store services. Stores process payments and provide purchase records to recognize, acknowledge and restore Premium. The app caches entitlement status locally and does not receive full payment-card details. See [Google's policy](https://policies.google.com/privacy) and [Microsoft's policy](https://privacy.microsoft.com/privacystatement).
+Google Play handles the optional one-time Android Premium purchase, which removes ads. Microsoft Store handles the paid Windows app purchase; the Windows app has no additional in-app purchase. Stores process payments and provide purchase records or app-license status used to recognize ownership. Android also uses purchase records to acknowledge and restore Premium. The app caches Android entitlement status locally; Windows uses the Store's license information and offline cache. We do not receive full payment-card details. See [Google's policy](https://policies.google.com/privacy) and [Microsoft's policy](https://privacy.microsoft.com/privacystatement).
 
 ## Retention and deletion
 
@@ -53,7 +66,7 @@ Resetting does not cancel purchases or erase third-party records. Google, Micros
 
 Emails and attachments you send are used to respond and kept without a fixed automatic deletion period. Request deletion at **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)** and we will delete the requested correspondence from our mailbox. Your copies and email-provider backups follow their own retention practices.
 
-There is no separate developer-operated analytics or automatic crash-upload service. Diagnostic builds may keep local logs; errors and state changes may appear in system/developer logs. Review logs before sharing. Local databases and exports are not encrypted by the app; device security and your chosen destinations affect protection.
+Apart from Google Analytics on Android, described above, there is no developer-operated analytics or automatic crash-upload service. Diagnostic builds may keep local logs; errors and state changes may appear in system/developer logs. Review logs before sharing. Local databases and exports are not encrypted by the app; device security and your chosen destinations affect protection.
 
 ## Audience, website and updates
 
