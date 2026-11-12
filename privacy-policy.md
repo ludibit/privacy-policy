@@ -1,6 +1,6 @@
 # Ludibit Privacy Policy
 
-Effective date: **November 6, 2026**
+Effective date: **November 12, 2026**
 
 This policy explains how **Ideal Timers**, developed by **Ludibit**, handles your information. Contact: **[iamludibit@gmail.com](mailto:iamludibit@gmail.com)**.
 
@@ -10,6 +10,7 @@ This policy explains how **Ideal Timers**, developed by **Ludibit**, handles you
 - You choose whether to sync or export backups, which devices to sync with and where to save or share exported files. Device backups follow your operating-system backup settings.
 - AdMob processes advertising information. We do not send your timer content to AdMob.
 - On Android, Google Analytics measures installs and ad revenue so we can see which creator links and ads work. It follows your consent choices and never receives your timer content.
+- The optional AI assistant sends your questions and a summary of your timers, using your own API key, to the AI provider you choose, and only after you accept a notice. We never receive this data.
 - Android includes ads and has no in-app purchases. On Windows, Microsoft Store handles the paid app purchase.
 
 ## Your local data
@@ -25,6 +26,16 @@ Sync connects directly to paired devices on your local network and exchanges enc
 Pairing secrets, device details, timestamps and saved sync versions remain locally for reconnection and conflict resolution. Removing a paired device removes its local pairing record and saved versions, but not copies on that device. Use trusted devices and networks.
 
 Exports are readable, unencrypted JSON files containing app database content, including the installation identifier. Mobile sharing creates a temporary copy. You choose where to save or share files; receiving services follow their own policies. Import replaces database content. Your operating system may separately back up or transfer app data under its settings and provider.
+
+## Optional AI assistant
+
+Ideal Timers includes an optional assistant that answers questions about your timers and can propose changes, such as creating a timer, that you confirm before they apply. It is off until you choose an AI provider (currently OpenAI, Anthropic, Google Gemini or OpenRouter) and enter your own API key from that provider. Before the first request, and again whenever you switch provider, the app shows what will be sent and asks you to accept.
+
+When you ask something, the app sends directly from your device to the provider you chose: your question and the current conversation; names of your boards and timers; totals of your metrics for the selected range; and, only if you turn this on, your history notes. Raw history events, other settings and your API key's value are never included in the conversation. **These requests go straight to the provider; Ludibit does not run a server for the assistant and never receives your questions, answers or key.**
+
+The provider processes this data, and bills usage to your key, under its own terms and privacy policy, which may include keeping requests for a period or using them as described there. Review your provider's policies before using the assistant: [OpenAI](https://openai.com/policies/privacy-policy/), [Anthropic](https://www.anthropic.com/legal/privacy), [Google](https://policies.google.com/privacy) and [OpenRouter](https://openrouter.ai/privacy).
+
+On Android and Windows, your API key is encrypted with the system's secure storage and kept on the device; on other platforms it is kept only for the current session. Assistant settings and, if “Save conversations” is on, your conversations are stored only on this device. They are not synced or included in exports or backups. You can turn off conversation saving, use “Delete conversations” and “Remove key” in the assistant settings, or stop using the assistant at any time.
 
 ## Android advertising and privacy choices
 
@@ -54,7 +65,7 @@ The Android app has no in-app purchases. Microsoft Store handles the paid Window
 
 ## Retention and deletion
 
-Local content remains until deleted, replaced by import or removed with app storage. History defaults to 90 days and is pruned during startup and history operations. You can change retention or clear history; a non-positive retention value disables automatic pruning.
+Local content remains until deleted, replaced by import or removed with app storage. Saved assistant conversations and keys remain until you delete them in the assistant settings or remove app storage; “Reset all data” does not remove them. History defaults to 90 days and is pruned during startup and history operations. You can change retention or clear history; a non-positive retention value disables automatic pruning.
 
 “Reset all data” resets the database. It does not remove every separate file, including saved sync devices/versions, wallpaper, shortcut preferences and exported backups. Remove saved devices and wallpaper through their controls. On Android, clearing app storage removes app-private data; uninstalling generally does too, but system backups may restore it. Desktop uninstalling may leave the data directory. Delete exports, backups and copies elsewhere separately.
 
